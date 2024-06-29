@@ -111,3 +111,4 @@ scikit-image==0.21.0
 scikit-learn==1.3.1
 matplotlib==3.7.1
 matplotlib-inline==0.1.6
+seaborn==0.12.2
