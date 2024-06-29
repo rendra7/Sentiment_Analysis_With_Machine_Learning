@@ -1,7 +1,7 @@
-pickleshare==0.7.5
-cloudpickle==2.2.1
+pickleshare
+cloudpickle
 streamlit
-scikit-image==0.19.0
-scikit-learn==0.24.3
+scikit-image
+scikit-learn
 matplotlib
-seaborn==0.12.2
+seaborn
