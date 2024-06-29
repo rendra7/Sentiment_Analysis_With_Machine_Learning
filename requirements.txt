@@ -1,6 +1,7 @@
+pickleshare==0.7.5
 cloudpickle==2.2.1
 streamlit
-scikit-image
-scikit-learn
-matplotlib
-matplotlib-inline
+scikit-image==0.21.0
+scikit-learn==1.3.1
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
