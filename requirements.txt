@@ -33,7 +33,6 @@ biopython==1.83
 black==23.1.0
 bleach==4.1.0
 blinker==1.8.2
-bokeh==3.2.2
 boltons==23.0.0
 boto3==1.26.61
 botocore==1.29.61
@@ -201,8 +200,6 @@ nbclassic==1.0.0
 nbclient==0.7.2
 nbconvert==7.2.9
 nbformat==5.7.3
-nest-asyncio==1.5.6
-networkx==3.1
 nltk==3.8.1
 nose==1.3.7
 notebook==6.5.3
