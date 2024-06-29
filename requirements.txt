@@ -170,7 +170,6 @@ prompt-toolkit==3.0.38
 protego==0.2.1
 protobuf==4.23.2
 psutil==5.9.5
-psycopg2==2.9.7
 ptyprocess==0.7.0
 py==1.11.0
 pyasn1==0.4.8
