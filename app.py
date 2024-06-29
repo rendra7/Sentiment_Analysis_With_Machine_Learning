@@ -7,7 +7,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
 
 # Load the models, vectorizer, and target map from the pickle file
 with open('sentiment_models_FULL_new.pkl', 'rb') as file:
