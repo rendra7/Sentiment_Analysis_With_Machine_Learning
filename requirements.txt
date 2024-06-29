@@ -1,5 +1,5 @@
 pickleshare==0.7.5
-pickle
+pickle==0.7.5
 streamlit
 scikit-image
 scikit-learn
