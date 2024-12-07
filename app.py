@@ -121,4 +121,4 @@ elif menu == "Model Comparison":
     st.write("Compare the accuracy of different machine learning models.")
     
     image_folder = 'image'
-    st.image(os.path.join(image_folder, 'model_accuracy_comparison.png'), caption='Comparasion model bar')
+    st.image(os.path.join(image_folder, 'Compare.png'), caption='Comparasion model report')
