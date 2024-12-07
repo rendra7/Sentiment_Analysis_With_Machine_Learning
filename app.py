@@ -36,11 +36,15 @@ if menu == "About":
     You can classify text sentiment, then record the result, and see a comparison of the accuracy of each model.
     """)
     st.write("This is a sentiment analysis application using machine learning models.")
-    st.write("Team Members:")
+    st.write("Developed By:")
     st.write("- Rendra Dwi Prasetyo - 2602199960")
-    st.write("- Valentino Marcell - 2602084104 ")
-    st.write("- Christhoper Julio Hariyanti - 2602087390")
-    st.write("- Steven Liu Sentiko - 2602084104")
+    
+    st.write("!!! Steps to Use the App !!!")
+    st.write("1. Enter the text you want to analyze.")
+    st.write("2. Select the classification model you want to use.")
+    st.write("3. Click 'Classify' to see the result.")
+    st.write("4. Repeat steps 1-3 if you want to analyze another text!")
+
 
 # Classify page
 elif menu == "Classify":
