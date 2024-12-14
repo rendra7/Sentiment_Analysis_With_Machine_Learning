@@ -7,7 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
-import request
+import requests
 
 
 url = 'https://huggingface.co/Rendra7/Sentiment_Analysis_app/resolve/main/sentiment_models_FULL_new.pkl'
