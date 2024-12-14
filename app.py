@@ -7,10 +7,29 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
+import request
+
+
+url = 'https://huggingface.co/Rendra7/Sentiment_Analysis_app/resolve/main/sentiment_models_FULL_new.pkl'
+# download model from my account hagging face (i upload on hugging face because limitation size of file on github)
+@st.cache_data  # 
+def download_model(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open('sentiment_models_FULL_new.pkl', 'wb') as file:
+            file.write(response.content)
+        return 'sentiment_models_FULL_new.pkl'
+    else:
+        st.error(f"Gagal mengunduh model. Status code: {response.status_code}")
+        return None
 
 # Load the models, vectorizer, and target map from the pickle file
-with open('sentiment_models_FULL_new.pkl', 'rb') as file:
-    svc, nb, lr, rf, vectorizer, target_map = pickle.load(file)
+file_path = download_model(url)
+if file_path:
+    with open(file_path, 'rb') as file:
+        # Load model, vectorizer, dan target map dari file pickle
+        svc, nb, lr, rf, vectorizer, target_map = pickle.load(file)
+    st.success("Model berhasil dimuat!")
 
 # Create a dictionary to map model names to model objects
 models = {
