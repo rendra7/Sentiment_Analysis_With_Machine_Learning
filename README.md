@@ -1,5 +1,5 @@
 # Project Machine learing - LC09 
-Name : Rendra Dwi Prasetyo
+Name : Rendra Dwi Prasetyo 
 
 NIM  : 2602199960 
 
