@@ -1,7 +1,7 @@
 # Project Machine learing - LC09 
 Name : Rendra Dwi Prasetyo
 
-NIM  : 2602199960
+NIM  : 2602199960 
 
 # Sentiment Analysis Web Application
 This repository contains a Sentiment Analysis Web Application built using Streamlit. The application allows users to input text, select a classification model, and view the sentiment classification results.
