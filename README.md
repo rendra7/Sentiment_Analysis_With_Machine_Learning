@@ -10,6 +10,9 @@ This repository contains a Sentiment Analysis Web Application built using Stream
 Access the application here:
 🔗 [Sentiment Analysis Web App](https://sentimentmachinelearning-bzmp29asmq9wu54farn2mv.streamlit.app/)
 
+![image](https://github.com/user-attachments/assets/0ba718ed-c336-4b08-93ec-f926741bfbca)
+
+
 # 📋 Features
 Text Input: Enter any text to analyze its sentiment.
 Model Selection: Choose from multiple classification models.
